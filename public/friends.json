@@ -5,10 +5,9 @@
         "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
         "email": "arafat.hossain@example.com",
         "days_since_contact": 5,
-        "status": "on-track",
+        "status": "On-Track",
         "tags": [
-            "university",
-            "best friend"
+            "WORK"
         ],
         "bio": "University lab partner. We still work on tech projects and share career advice.",
         "goal": 7,
@@ -20,10 +19,9 @@
         "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
         "email": "tanvir.hasan@example.com",
         "days_since_contact": 18,
-        "status": "almost due",
+        "status": "Almost Due",
         "tags": [
-            "college",
-            "roommate"
+            "FAMILY"
         ],
         "bio": "Former dorm roommate. We catch up during weekends and holidays.",
         "goal": 20,
@@ -35,10 +33,9 @@
         "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
         "email": "nafis.islam@example.com",
         "days_since_contact": 30,
-        "status": "overdue",
+        "status": "Overdue",
         "tags": [
-            "childhood",
-            "school friend"
+            "WORK"
         ],
         "bio": "Childhood friend from school days. We grew up in the same neighborhood.",
         "goal": 14,
@@ -50,10 +47,10 @@
         "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
         "email": "sabbir.ahmed@example.com",
         "days_since_contact": 2,
-        "status": "on-track",
+        "status": "On-Track",
         "tags": [
-            "developer",
-            "coding buddy"
+            "HOBBY",
+            "TRAVEL"
         ],
         "bio": "Coding partner. We collaborate on React and backend projects.",
         "goal": 10,
@@ -65,10 +62,9 @@
         "picture": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
         "email": "mehedi.hasan@example.com",
         "days_since_contact": 12,
-        "status": "almost due",
+        "status": "Almost Due",
         "tags": [
-            "study group",
-            "university"
+            "WORK"
         ],
         "bio": "Study group friend from university. We help each other with assignments.",
         "goal": 14,
@@ -80,10 +76,9 @@
         "picture": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c",
         "email": "rafiq.uddin@example.com",
         "days_since_contact": 40,
-        "status": "overdue",
+        "status": "Overdue",
         "tags": [
-            "gym",
-            "fitness"
+            "FAMILY"
         ],
         "bio": "Gym partner and fitness accountability buddy.",
         "goal": 14,
@@ -95,10 +90,9 @@
         "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598",
         "email": "imran.hossain@example.com",
         "days_since_contact": 8,
-        "status": "on-track",
+        "status": "On-Track",
         "tags": [
-            "school",
-            "old friend"
+            "WORK"
         ],
         "bio": "School friend. We still play cricket and hang out occasionally.",
         "goal": 10,
@@ -110,10 +104,10 @@
         "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598",
         "email": "hasan.mahmud@example.com",
         "days_since_contact": 22,
-        "status": "almost due",
+        "status": "Almost Due",
         "tags": [
-            "project partner",
-            "university"
+            "HOBBY",
+            "TRAVEL"
         ],
         "bio": "University project partner. We built multiple web apps together.",
         "goal": 14,
@@ -125,10 +119,9 @@
         "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
         "email": "shakib.rahman@example.com",
         "days_since_contact": 14,
-        "status": "on-track",
+        "status": "On-Track",
         "tags": [
-            "startup",
-            "tech"
+            "WORK"
         ],
         "bio": "Startup enthusiast. We often discuss business ideas and new tech trends.",
         "goal": 14,
@@ -140,10 +133,9 @@
         "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
         "email": "farhan.uddin@example.com",
         "days_since_contact": 6,
-        "status": "on-track",
+        "status": "On-Track",
         "tags": [
-            "hackathon",
-            "teammate"
+            "FAMILY"
         ],
         "bio": "Hackathon teammate. We enjoy solving real-world problems with code.",
         "goal": 10,
@@ -155,10 +147,9 @@
         "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
         "email": "arif.khan@example.com",
         "days_since_contact": 28,
-        "status": "almost due",
+        "status": "Almost Due",
         "tags": [
-            "family",
-            "cousin"
+            "WORK"
         ],
         "bio": "Cousin living in Dhaka. We meet during family events and holidays.",
         "goal": 21,
@@ -170,10 +161,10 @@
         "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
         "email": "rahat.karim@example.com",
         "days_since_contact": 35,
-        "status": "overdue",
+        "status": "Overdue",
         "tags": [
-            "school",
-            "childhood"
+            "HOBBY",
+            "TRAVEL"
         ],
         "bio": "Childhood school friend. We try to reconnect after long gaps.",
         "goal": 14,

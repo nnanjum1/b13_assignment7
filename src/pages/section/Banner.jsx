@@ -1,8 +1,16 @@
 import React from 'react'
 import { FaPlus } from 'react-icons/fa'
-import { BannerCard } from '../../components/BannerCard'
+import { useFriends } from '../../contex/FriendContex'
 
 const Banner = () => {
+    const {
+        totalFriends,
+        onTrack,
+        almostDue,
+        overdue,
+        interactionsThisMonth
+    } = useFriends()
+
     return (
         <div>
             <div className="hero bg-[#f8fafc] pt-20">
@@ -22,28 +30,28 @@ const Banner = () => {
 
                 <div className="card bg-white shadow-sm">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-[#1F2937]">10</h2>
+                        <h2 className="card-title text-[#1F2937]">{totalFriends}</h2>
                         <p className='text-[#64748b]'>Total Friends</p>
                     </div>
                 </div>
 
                 <div className="card bg-white shadow-sm">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-[#1F2937]">3</h2>
+                        <h2 className="card-title text-[#1F2937]">{onTrack}</h2>
                         <p className='text-[#64748b]'>On Track</p>
                     </div>
                 </div>
 
                 <div className="card bg-white shadow-sm">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-[#1F2937]">6</h2>
+                        <h2 className="card-title text-[#1F2937]">{overdue}</h2>
                         <p className='text-[#64748b]'>Need Attention</p>
                     </div>
                 </div>
 
                 <div className="card bg-white shadow-sm">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-[#1F2937]">12</h2>
+                        <h2 className="card-title text-[#1F2937]">{interactionsThisMonth}</h2>
                         <p className='text-[#64748b]'>Interactions This Month</p>
                     </div>
                 </div>
