@@ -4,6 +4,7 @@ import MainLayout from '../layout/MainLayout'
 import HomePage from '../pages/HomePage'
 import Timeline from '../timeline/Timeline'
 import Stats from '../stats/Stats'
+import ErrorPage from '../pages/ErrorPage'
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
                     path: "/stats",
                     element: <Stats />
                 }
-            ]
+            ],
+        errorElement: <ErrorPage />
     }
 ])

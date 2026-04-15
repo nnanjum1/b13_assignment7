@@ -9,9 +9,9 @@ const NavBar = () => {
 
     const links = <>
 
-        <li> <NavLink to={'/'} className={({ isActive }) => `text-[16px] font-medium text-center  ${isActive ? "text-white bg-teal-800" : "text-gray-500"} `} > <RiHomeLine />Home </NavLink> </li>
-        <li> <NavLink to={'/timeline'} className={({ isActive }) => `text-[16px] font-medium text-center  ${isActive ? "text-white bg-teal-800" : "text-gray-500"} `} ><IoTimeOutline />Timeline  </NavLink> </li>
-        <li> <NavLink to={'/stats'} className={({ isActive }) => `text-[16px] font-medium text-center  ${isActive ? "text-white bg-teal-800" : "text-gray-500"} `} ><TfiStatsUp />Stats </NavLink> </li>
+        <li> <NavLink to={'/'} className={({ isActive }) => `text-[16px] font-medium text-center  ${isActive ? "text-white bg-[#244D3F]" : "text-gray-500"} `} > <RiHomeLine />Home </NavLink> </li>
+        <li> <NavLink to={'/timeline'} className={({ isActive }) => `text-[16px] font-medium text-center  ${isActive ? "text-white bg-[#244D3F]" : "text-gray-500"} `} ><IoTimeOutline />Timeline  </NavLink> </li>
+        <li> <NavLink to={'/stats'} className={({ isActive }) => `text-[16px] font-medium text-center  ${isActive ? "text-white bg-[#244D3F]" : "text-gray-500"} `} ><TfiStatsUp />Stats </NavLink> </li>
 
     </>
 
@@ -30,7 +30,7 @@ const NavBar = () => {
                     </label>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-white rounded-box shadow w-52 mt-3 z-[10]"
+                        className="menu menu-sm dropdown-content bg-white rounded-box shadow w-52 mt-3 z-10"
                     >
                         {links}
                     </ul>
